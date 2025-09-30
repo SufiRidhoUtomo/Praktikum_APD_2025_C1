@@ -7,7 +7,6 @@ small_diecast = 75000
 
 total = 0
 
-
 while True:
     print('---list harga---')
     print("Diecast 1:8  = Rp. 500.000")
@@ -21,9 +20,9 @@ while True:
 
     if total > 1000000:
         total = total - (total*0.10)
-        print("total belanjaan adalah ", total)
+        print("total belanjaan adalah", total)
 
-    elif total >500000:
+    elif total > 500000:
         total = total-(total*0.05)
         print("total belanjaan adalah", total)
 
@@ -34,5 +33,5 @@ while True:
     if ulangin == "ya":
         continue
     else : 
-        print("Terima kasih silahkan datang kembali ")
-        break 
+        print("Terima kasih silahkan datang kembali")
+        break
